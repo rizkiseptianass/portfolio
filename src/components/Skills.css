@@ -1,0 +1,59 @@
+.skills{
+    margin-top: 12%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.skills-text{
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 20px;
+    color: #da5959;
+}
+.skill-item{
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 45px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.skill-list{
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+}
+.skill-item .html{
+    color: #E44D26;
+}
+.skill-item .css{
+    color: #2062AF;
+}
+.skill-item .js{
+    color: #F7DF1E;
+}
+.skill-item .bs{
+    color: #563D7C;
+}
+.skill-item .react{
+    color: #00D8FF;
+}
+.skill-item .figma{
+    color: #000000;
+}
+.skill-item .wordpress{
+    color: #0087BE;
+}
+.skill-item .node{
+    color: #418A3D;
+}
+.skill-item:hover{
+    transform: translateY(-10px);
+}
