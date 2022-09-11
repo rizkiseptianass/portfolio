@@ -6,7 +6,7 @@ const Experience = () => {
     return(
         <div className="experience">
             <div className="experience-img">
-            <img src={WebDev}></img>
+            <img src={WebDev} alt=""></img>
             </div>
             <h3 className="title">Experience</h3>
             <div className="experience-list">

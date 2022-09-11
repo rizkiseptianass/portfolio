@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3, faJs, faBootstrap, faReact, faFigma, faWordpress, faNode } from "@fortawesome/free-brands-svg-icons";
 import './Skills.css';
+import { Link } from "react-router-dom";
 
 const Skills = () => {
     return(
@@ -11,28 +12,28 @@ const Skills = () => {
             </div>
             <div className="skill-list">
                 <div className="skill-item">
-                    <a href="#"><FontAwesomeIcon icon={faHtml5} className="fab html"/></a>
+                    <Link to="/"><FontAwesomeIcon icon={faHtml5} className="fab html"/></Link>
                 </div>
                 <div className="skill-item">
-                    <a href="#"><FontAwesomeIcon icon={faCss3} className="fab css"/></a>
+                    <Link to="/"><FontAwesomeIcon icon={faCss3} className="fab css"/></Link>
                 </div>
                 <div className="skill-item">
-                    <a href="#"><FontAwesomeIcon icon={faJs} className="fab js"/></a>
+                    <Link to="/"><FontAwesomeIcon icon={faJs} className="fab js"/></Link>
                 </div>
                 <div className="skill-item">
-                    <a href="#"><FontAwesomeIcon icon={faBootstrap} className="fab bs"/></a>
+                    <Link to="/"><FontAwesomeIcon icon={faBootstrap} className="fab bs"/></Link>
                 </div>
                 <div className="skill-item">
-                    <a href="#"><FontAwesomeIcon icon={faReact} className="fab react"/></a>
+                    <Link to="/"><FontAwesomeIcon icon={faReact} className="fab react"/></Link>
                 </div>
                 <div className="skill-item">
-                    <a href="#"><FontAwesomeIcon icon={faFigma} className="fab figma"/></a>
+                    <Link to="/"><FontAwesomeIcon icon={faFigma} className="fab figma"/></Link>
                 </div>
                 <div className="skill-item">
-                    <a href="#"><FontAwesomeIcon icon={faWordpress} className="fab wordpress"/></a>
+                    <Link to="/"><FontAwesomeIcon icon={faWordpress} className="fab wordpress"/></Link>
                 </div>
                 <div className="skill-item">
-                    <a href="#"><FontAwesomeIcon icon={faNode} className="fab node"/></a>
+                    <Link to="/"><FontAwesomeIcon icon={faNode} className="fab node"/></Link>
                 </div>
             </div>
         </div>

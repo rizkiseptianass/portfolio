@@ -37,7 +37,7 @@ const Navbar = () => {
                     <Link to="/" className="li a">Home</Link> 
                     <Link to="/aboutme" className="li a">About</Link>
                 </ul>
-                <a onClick={navToggle}><FontAwesomeIcon icon={faBars} className="menu"/></a>
+                <Link to="/" onClick={navToggle}><FontAwesomeIcon icon={faBars} className="menu"/></Link>
             </div>
         </nav>
     )
